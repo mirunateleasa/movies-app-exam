@@ -1,0 +1,143 @@
+div#movieContainer
+{
+      width: 100vw;
+      height: 100vh;
+      background-color: #faf4f4;
+      display: grid;
+      grid-template-rows: 10% 5% 75% 10%;
+}
+
+div#filterRow
+{
+      display: inline-flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding: 10px;
+      width: 25%;
+      justify-self: center;
+      margin: 5px;
+}
+
+div#inputRow
+{
+      display: grid;
+      grid-template-columns: 90% 10%;
+}
+
+div#inputCol
+{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+}
+
+input.formInput
+{
+      font-family: Supermercado One;
+      font-size: large;
+      margin: 1vw;
+}
+
+input#addBtn
+{
+      position: sticky;
+      height: 8vh;
+      width: 8vh;
+      font-size: xx-large;
+      color: #5a3f11;
+      background-color: inherit;
+      border: 4px solid #5a3f11;
+      border-radius: 50px;
+}
+
+input#addBtn:hover{
+      cursor: pointer;
+}
+
+input#addBtn:active
+{
+      box-shadow: 0 0 0 1px #5a3f11;
+      width: 7.5vh;
+      height: 7.5vh;
+}
+
+div#cardRow
+{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      flex-direction: row;
+      overflow:scroll;
+}
+
+div#card{
+      border: 1px solid #da8f0d;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 5px 5px 10px #91610e;
+      width: 20vw;
+      height: 50vh;
+      margin: 10px;
+      background-color: antiquewhite;
+}
+
+div#cardMember
+{
+      border: 1px solid #da0d0d;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 5px 5px 10px #910e0e;
+      width: 20vw;
+      height: 50vh;
+      margin: 10px;
+      background-color: rgb(250, 215, 215);
+}
+div#cardMember:hover
+{
+      transform: scale(1.05);
+      transition:ease-in-out;
+      transition-duration: 0.3s;
+      background-color: rgb(255, 167, 167);
+      cursor: pointer;
+}
+
+img.cardImage
+{
+      width: 100%;
+      height: 65%;
+}
+
+.cardDetail
+{
+      color: #5a3f11;
+      font-family: Supermercado One;
+      padding: 0;
+      margin-left: auto;
+      margin-right: auto;
+      margin: 1%;
+}
+
+div#card:hover
+{
+      transform: scale(1.05);
+      transition:ease-in-out;
+      transition-duration: 0.3s;
+      background-color: rgb(255, 217, 167);
+      cursor: pointer;
+}
+
+div#displayMovieRow
+{
+      display: flex;
+      height: fit-content;
+      align-items: center;
+}
+
+div#oneMovieContainer
+{
+      display: grid;
+      grid-template-rows: auto;
+}
